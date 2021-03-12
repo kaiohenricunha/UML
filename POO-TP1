@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2021-03-12T20:01:43.799Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/89.0.4389.82 Safari/537.36" etag="mWOVQQL1T_JdUiLxYbay" version="14.4.6" type="github">
+<mxfile host="app.diagrams.net" modified="2021-03-12T23:53:47.402Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/89.0.4389.82 Safari/537.36" etag="SS4IqEdvsLONk4b4vUP8" version="14.4.6" type="github">
   <diagram id="07MunqJtJk8PtZjWfxL3" name="Page-1">
     <mxGraphModel dx="786" dy="441" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
       <root>
@@ -81,7 +81,7 @@
           </mxGeometry>
         </mxCell>
         <mxCell id="msleNZjWcWu242j3GCj2-28" value="Validar cadastro do cliente no banco" style="ellipse;whiteSpace=wrap;html=1;" parent="1" vertex="1">
-          <mxGeometry x="580" width="120" height="80" as="geometry" />
+          <mxGeometry x="580" y="10" width="110" height="70" as="geometry" />
         </mxCell>
         <mxCell id="msleNZjWcWu242j3GCj2-29" value="Include" style="endArrow=open;endSize=12;dashed=1;html=1;entryX=1;entryY=0.5;entryDx=0;entryDy=0;" parent="1" source="msleNZjWcWu242j3GCj2-28" target="msleNZjWcWu242j3GCj2-20" edge="1">
           <mxGeometry width="160" relative="1" as="geometry">
