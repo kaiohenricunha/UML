@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2021-03-22T13:15:27.073Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/89.0.4389.90 Safari/537.36" etag="OOgaH-YCuYYwUExBiyVP" version="14.4.8" type="github">
+<mxfile host="app.diagrams.net" modified="2021-03-22T13:18:35.962Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/89.0.4389.90 Safari/537.36" etag="PVha8xCfm9dxSJ8HlRdb" version="14.4.8" type="github">
   <diagram id="gHgEI0VDFsNn6206OeC5" name="Page-1">
     <mxGraphModel dx="786" dy="514" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
       <root>
@@ -155,14 +155,14 @@
         <mxCell id="tdfPwlk8fb2MhAYH_wM9-50" value="Gera comprovante da operação" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
           <mxGeometry x="400" y="660" width="200" height="20" as="geometry" />
         </mxCell>
-        <mxCell id="tdfPwlk8fb2MhAYH_wM9-51" value="Cliente" style="html=1;" vertex="1" parent="1">
-          <mxGeometry x="55" y="50" width="110" height="50" as="geometry" />
-        </mxCell>
         <mxCell id="tdfPwlk8fb2MhAYH_wM9-52" value="Cliente" style="html=1;" vertex="1" parent="1">
           <mxGeometry x="50" y="720" width="110" height="50" as="geometry" />
         </mxCell>
         <mxCell id="tdfPwlk8fb2MhAYH_wM9-53" value="caixaEletronico" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
           <mxGeometry x="290" y="720" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="tdfPwlk8fb2MhAYH_wM9-54" value="Cliente" style="shape=umlActor;verticalLabelPosition=bottom;verticalAlign=top;html=1;" vertex="1" parent="1">
+          <mxGeometry x="90" y="10" width="30" height="60" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
