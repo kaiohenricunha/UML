@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2021-04-06T13:30:57.250Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/89.0.4389.114 Safari/537.36" etag="btRdo3v3umjJyMiS281I" version="14.5.7" type="github">
+<mxfile host="app.diagrams.net" modified="2021-04-06T13:32:16.724Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/89.0.4389.114 Safari/537.36" etag="uLdcs7aXEX3usSUnHMNu" version="14.5.7" type="github">
   <diagram id="63-cLZ0YxUIKmm4D6Uuo" name="Page-1">
     <mxGraphModel dx="1123" dy="1730" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
       <root>
@@ -53,7 +53,7 @@
           <mxGeometry y="98" width="410" height="142" as="geometry" />
         </mxCell>
         <mxCell id="LbJHqXD3jlKjh32ruDmG-48" value="Concurso" style="swimlane;fontStyle=1;align=center;verticalAlign=top;childLayout=stackLayout;horizontal=1;startSize=26;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;" vertex="1" parent="1">
-          <mxGeometry x="900" y="-260" width="410" height="240" as="geometry" />
+          <mxGeometry x="920" y="-260" width="410" height="240" as="geometry" />
         </mxCell>
         <mxCell id="LbJHqXD3jlKjh32ruDmG-49" value="+ usuario: &lt;Usuario&gt; []&#xa;+ dataResultado: Date&#xa;+ premios: &lt;Premio&gt; [3]&#xa;+ composicoes: &lt;Composicao&gt; []" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;" vertex="1" parent="LbJHqXD3jlKjh32ruDmG-48">
           <mxGeometry y="26" width="410" height="64" as="geometry" />
@@ -128,6 +128,18 @@
           <mxGeometry x="-1" relative="1" as="geometry" />
         </mxCell>
         <mxCell id="LbJHqXD3jlKjh32ruDmG-85" value="0..n" style="edgeLabel;resizable=0;html=1;align=right;verticalAlign=top;" connectable="0" vertex="1" parent="LbJHqXD3jlKjh32ruDmG-83">
+          <mxGeometry x="1" relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="LbJHqXD3jlKjh32ruDmG-86" value="composicao" style="endArrow=open;html=1;endSize=12;startArrow=diamondThin;startSize=14;startFill=0;edgeStyle=orthogonalEdgeStyle;" edge="1" parent="1">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="890" y="-202" as="sourcePoint" />
+            <mxPoint x="770" y="-202" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="LbJHqXD3jlKjh32ruDmG-87" value="0..1" style="edgeLabel;resizable=0;html=1;align=left;verticalAlign=top;" connectable="0" vertex="1" parent="LbJHqXD3jlKjh32ruDmG-86">
+          <mxGeometry x="-1" relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="LbJHqXD3jlKjh32ruDmG-88" value="0..n" style="edgeLabel;resizable=0;html=1;align=right;verticalAlign=top;" connectable="0" vertex="1" parent="LbJHqXD3jlKjh32ruDmG-86">
           <mxGeometry x="1" relative="1" as="geometry" />
         </mxCell>
       </root>
