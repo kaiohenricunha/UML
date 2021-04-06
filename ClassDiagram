@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2021-04-06T13:13:53.939Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/89.0.4389.114 Safari/537.36" etag="XAr0r5JHrph70CKrFriF" version="14.5.7" type="github">
+<mxfile host="app.diagrams.net" modified="2021-04-06T13:16:04.414Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/89.0.4389.114 Safari/537.36" etag="nmTMKfQ4c7x9-V2r00jd" version="14.5.7" type="github">
   <diagram id="63-cLZ0YxUIKmm4D6Uuo" name="Page-1">
     <mxGraphModel dx="655" dy="368" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
       <root>
@@ -65,16 +65,16 @@
           <mxGeometry y="98" width="410" height="142" as="geometry" />
         </mxCell>
         <mxCell id="LbJHqXD3jlKjh32ruDmG-52" value="Composicao" style="swimlane;fontStyle=1;align=center;verticalAlign=top;childLayout=stackLayout;horizontal=1;startSize=26;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;" vertex="1" parent="1">
-          <mxGeometry x="640" y="90" width="410" height="240" as="geometry" />
+          <mxGeometry x="640" y="90" width="410" height="160" as="geometry" />
         </mxCell>
-        <mxCell id="LbJHqXD3jlKjh32ruDmG-53" value="+ candidato: &#xa;+ dataResultado: Date&#xa;+ premios: &lt;Premio&gt; [3]&#xa;+ composicoes: &lt;Composicao&gt; []" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;" vertex="1" parent="LbJHqXD3jlKjh32ruDmG-52">
-          <mxGeometry y="26" width="410" height="64" as="geometry" />
+        <mxCell id="LbJHqXD3jlKjh32ruDmG-53" value="+ usuario: Usuario &#xa;+ composicaoLink: String" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;" vertex="1" parent="LbJHqXD3jlKjh32ruDmG-52">
+          <mxGeometry y="26" width="410" height="44" as="geometry" />
         </mxCell>
         <mxCell id="LbJHqXD3jlKjh32ruDmG-54" value="" style="line;strokeWidth=1;fillColor=none;align=left;verticalAlign=middle;spacingTop=-1;spacingLeft=3;spacingRight=3;rotatable=0;labelPosition=right;points=[];portConstraint=eastwest;" vertex="1" parent="LbJHqXD3jlKjh32ruDmG-52">
-          <mxGeometry y="90" width="410" height="8" as="geometry" />
+          <mxGeometry y="70" width="410" height="8" as="geometry" />
         </mxCell>
-        <mxCell id="LbJHqXD3jlKjh32ruDmG-55" value="+ Concurso(Date dataResultado, Premio premios)&#xa;+ Candidato getCandidato()&#xa;+ Date getData()&#xa;+ Premio getPremio()&#xa;+ Composicao getComposicoes()&#xa;+ void setCandidato()&#xa;+ void setDataResultado()&#xa;+ void setPremios()&#xa;+ void setComposicoes()" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;" vertex="1" parent="LbJHqXD3jlKjh32ruDmG-52">
-          <mxGeometry y="98" width="410" height="142" as="geometry" />
+        <mxCell id="LbJHqXD3jlKjh32ruDmG-55" value="+ Composicao(Usuario usuario, String composicaoLink)&#xa;+ Usuario getUsuario()&#xa;+ String getComposicaoLink()&#xa;+ void setUsuario()&#xa;+ void setComposicaoLink()" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;" vertex="1" parent="LbJHqXD3jlKjh32ruDmG-52">
+          <mxGeometry y="78" width="410" height="82" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
