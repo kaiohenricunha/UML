@@ -1,6 +1,6 @@
-<mxfile host="app.diagrams.net" modified="2021-04-06T14:35:17.568Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/89.0.4389.114 Safari/537.36" etag="6NhPpKluWgVEz1VcI_An" version="14.5.7" type="github">
+<mxfile host="app.diagrams.net" modified="2021-04-06T14:42:58.807Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/89.0.4389.114 Safari/537.36" etag="M9CcHd0UVqSzuop-UHTy" version="14.5.7" type="github">
   <diagram id="JZOuH_yRhHNg3JBBt14S" name="Page-1">
-    <mxGraphModel dx="1123" dy="630" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
+    <mxGraphModel dx="655" dy="428" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
@@ -11,7 +11,7 @@
           <mxGeometry x="310" y="40" width="100" height="300" as="geometry" />
         </mxCell>
         <mxCell id="D6yoV7OybMeUxjnF4ixi-9" value="" style="html=1;points=[];perimeter=orthogonalPerimeter;" vertex="1" parent="D6yoV7OybMeUxjnF4ixi-6">
-          <mxGeometry x="45" y="80" width="10" height="80" as="geometry" />
+          <mxGeometry x="45" y="80" width="10" height="120" as="geometry" />
         </mxCell>
         <mxCell id="D6yoV7OybMeUxjnF4ixi-12" value="" style="endArrow=open;endFill=1;endSize=12;html=1;exitX=0.914;exitY=0.036;exitDx=0;exitDy=0;exitPerimeter=0;" edge="1" parent="D6yoV7OybMeUxjnF4ixi-6" source="D6yoV7OybMeUxjnF4ixi-9" target="D6yoV7OybMeUxjnF4ixi-6">
           <mxGeometry width="160" relative="1" as="geometry">
@@ -24,13 +24,29 @@
           </mxGeometry>
         </mxCell>
         <mxCell id="D6yoV7OybMeUxjnF4ixi-8" value="se inscever" style="html=1;verticalAlign=bottom;endArrow=block;" edge="1" parent="1" target="D6yoV7OybMeUxjnF4ixi-6">
-          <mxGeometry width="80" relative="1" as="geometry">
+          <mxGeometry x="-0.1837" y="10" width="80" relative="1" as="geometry">
             <mxPoint x="90" y="120" as="sourcePoint" />
             <mxPoint x="170" y="120" as="targetPoint" />
+            <mxPoint as="offset" />
           </mxGeometry>
         </mxCell>
         <mxCell id="D6yoV7OybMeUxjnF4ixi-13" value="confere se o usuário já está cadastrado" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;" vertex="1" parent="1">
           <mxGeometry x="370" y="130" width="240" height="26" as="geometry" />
+        </mxCell>
+        <mxCell id="D6yoV7OybMeUxjnF4ixi-17" value="solicita que o usuário anexe uma composição&amp;nbsp;" style="html=1;verticalAlign=bottom;endArrow=block;exitX=0.083;exitY=0.586;exitDx=0;exitDy=0;exitPerimeter=0;" edge="1" parent="1" source="D6yoV7OybMeUxjnF4ixi-9" target="D6yoV7OybMeUxjnF4ixi-5">
+          <mxGeometry width="80" relative="1" as="geometry">
+            <mxPoint x="350" y="190" as="sourcePoint" />
+            <mxPoint x="420" y="240" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="D6yoV7OybMeUxjnF4ixi-18" value="usuário anexa uma composição" style="html=1;verticalAlign=bottom;endArrow=open;dashed=1;endSize=8;" edge="1" parent="1" source="D6yoV7OybMeUxjnF4ixi-5" target="D6yoV7OybMeUxjnF4ixi-6">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="340" y="270" as="sourcePoint" />
+            <mxPoint x="260" y="270" as="targetPoint" />
+            <Array as="points">
+              <mxPoint x="210" y="240" />
+            </Array>
+          </mxGeometry>
         </mxCell>
       </root>
     </mxGraphModel>
