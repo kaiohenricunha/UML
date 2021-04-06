@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2021-04-06T14:47:27.525Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/89.0.4389.114 Safari/537.36" etag="ZKxaRuPMXt8sw56OKuc1" version="14.5.7" type="github">
+<mxfile host="app.diagrams.net" modified="2021-04-06T14:51:26.610Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/89.0.4389.114 Safari/537.36" etag="YBySpOVaQoCjeUaLzhXU" version="14.5.7" type="github">
   <diagram id="JZOuH_yRhHNg3JBBt14S" name="Page-1">
     <mxGraphModel dx="655" dy="428" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
       <root>
@@ -79,6 +79,12 @@
             <Array as="points">
               <mxPoint x="160" y="360" />
             </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="D6yoV7OybMeUxjnF4ixi-25" value="informa que a inscrição efetivada" style="html=1;verticalAlign=bottom;endArrow=block;exitX=0.833;exitY=0.988;exitDx=0;exitDy=0;exitPerimeter=0;" edge="1" parent="1" source="D6yoV7OybMeUxjnF4ixi-23" target="D6yoV7OybMeUxjnF4ixi-5">
+          <mxGeometry width="80" relative="1" as="geometry">
+            <mxPoint x="280" y="450" as="sourcePoint" />
+            <mxPoint x="360" y="450" as="targetPoint" />
           </mxGeometry>
         </mxCell>
       </root>
