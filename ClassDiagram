@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2021-04-06T13:02:33.373Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/89.0.4389.114 Safari/537.36" etag="yRYD28piDgXNh6syyIkb" version="14.5.7" type="github">
+<mxfile host="app.diagrams.net" modified="2021-04-06T13:03:30.339Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/89.0.4389.114 Safari/537.36" etag="FSzVdskTFViLSADBmk9J" version="14.5.7" type="github">
   <diagram id="63-cLZ0YxUIKmm4D6Uuo" name="Page-1">
     <mxGraphModel dx="925" dy="519" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
       <root>
@@ -49,7 +49,7 @@
         <mxCell id="LbJHqXD3jlKjh32ruDmG-46" value="" style="line;strokeWidth=1;fillColor=none;align=left;verticalAlign=middle;spacingTop=-1;spacingLeft=3;spacingRight=3;rotatable=0;labelPosition=right;points=[];portConstraint=eastwest;" vertex="1" parent="LbJHqXD3jlKjh32ruDmG-44">
           <mxGeometry y="90" width="410" height="8" as="geometry" />
         </mxCell>
-        <mxCell id="LbJHqXD3jlKjh32ruDmG-47" value="+ Usuario(String email, String senha, Plano plano, Cartao dadosCartao))&#xa;+ String getEmail()&#xa;+ String getSenha()&#xa;+ Plano getPlano()&#xa;+ Cartao getDadosCartao()&#xa;+ void setNome()&#xa;+ void setCpf()" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;" vertex="1" parent="LbJHqXD3jlKjh32ruDmG-44">
+        <mxCell id="LbJHqXD3jlKjh32ruDmG-47" value="+ Usuario(String email, String senha, Plano plano, Cartao dadosCartao))&#xa;+ String getEmail()&#xa;+ String getSenha()&#xa;+ Plano getPlano()&#xa;+ Cartao getDadosCartao()&#xa;+ void setEmail()&#xa;+ void setSenha()&#xa;+ void setPlano()&#xa;+ void setDadosCartao()" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;" vertex="1" parent="LbJHqXD3jlKjh32ruDmG-44">
           <mxGeometry y="98" width="410" height="142" as="geometry" />
         </mxCell>
       </root>
