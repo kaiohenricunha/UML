@@ -1,14 +1,14 @@
-<mxfile host="app.diagrams.net" modified="2021-04-06T14:51:26.610Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/89.0.4389.114 Safari/537.36" etag="YBySpOVaQoCjeUaLzhXU" version="14.5.7" type="github">
+<mxfile host="app.diagrams.net" modified="2021-04-06T14:51:40.729Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/89.0.4389.114 Safari/537.36" etag="3CvDQ64iEZ_-Rsqf2mpH" version="14.5.7" type="github">
   <diagram id="JZOuH_yRhHNg3JBBt14S" name="Page-1">
     <mxGraphModel dx="655" dy="428" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
         <mxCell id="D6yoV7OybMeUxjnF4ixi-5" value=":Usuario" style="shape=umlLifeline;perimeter=lifelinePerimeter;whiteSpace=wrap;html=1;container=1;collapsible=0;recursiveResize=0;outlineConnect=0;" vertex="1" parent="1">
-          <mxGeometry x="40" y="40" width="100" height="560" as="geometry" />
+          <mxGeometry x="40" y="40" width="100" height="440" as="geometry" />
         </mxCell>
         <mxCell id="D6yoV7OybMeUxjnF4ixi-6" value=":Concurso" style="shape=umlLifeline;perimeter=lifelinePerimeter;whiteSpace=wrap;html=1;container=1;collapsible=0;recursiveResize=0;outlineConnect=0;" vertex="1" parent="1">
-          <mxGeometry x="310" y="40" width="100" height="560" as="geometry" />
+          <mxGeometry x="310" y="40" width="100" height="440" as="geometry" />
         </mxCell>
         <mxCell id="D6yoV7OybMeUxjnF4ixi-9" value="" style="html=1;points=[];perimeter=orthogonalPerimeter;" vertex="1" parent="D6yoV7OybMeUxjnF4ixi-6">
           <mxGeometry x="45" y="80" width="10" height="120" as="geometry" />
