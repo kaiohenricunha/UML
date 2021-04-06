@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2021-04-06T15:38:30.609Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/89.0.4389.114 Safari/537.36" etag="Z4CppGzLNv11zxJ0yYay" version="14.5.7" type="github">
+<mxfile host="app.diagrams.net" modified="2021-04-06T15:39:15.467Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/89.0.4389.114 Safari/537.36" etag="U5sB97H0OgyG8x8VtHX-" version="14.5.7" type="github">
   <diagram id="0QPbzZWCt-4m2k5oEKGb" name="Page-1">
     <mxGraphModel dx="786" dy="441" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
       <root>
@@ -35,6 +35,9 @@
         <mxCell id="gV-o4oxT_IUZPnu71dZf-7" value="Administrador" style="swimlane;" vertex="1" parent="1">
           <mxGeometry x="480" y="40" width="200" height="400" as="geometry" />
         </mxCell>
+        <mxCell id="gV-o4oxT_IUZPnu71dZf-21" value="Avaliar artigo" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="gV-o4oxT_IUZPnu71dZf-7">
+          <mxGeometry x="40" y="240" width="120" height="60" as="geometry" />
+        </mxCell>
         <mxCell id="gV-o4oxT_IUZPnu71dZf-10" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="gV-o4oxT_IUZPnu71dZf-9">
           <mxGeometry relative="1" as="geometry">
             <mxPoint x="330" y="170" as="targetPoint" />
@@ -42,6 +45,17 @@
         </mxCell>
         <mxCell id="gV-o4oxT_IUZPnu71dZf-20" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=1;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="gV-o4oxT_IUZPnu71dZf-19" target="gV-o4oxT_IUZPnu71dZf-13">
           <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="gV-o4oxT_IUZPnu71dZf-22" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="gV-o4oxT_IUZPnu71dZf-14" target="gV-o4oxT_IUZPnu71dZf-21">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="gV-o4oxT_IUZPnu71dZf-23" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0;exitY=1;exitDx=0;exitDy=0;" edge="1" parent="1" source="gV-o4oxT_IUZPnu71dZf-21" target="gV-o4oxT_IUZPnu71dZf-24">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="360" y="360" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="gV-o4oxT_IUZPnu71dZf-24" value="Publicar artigo" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="300" y="330" width="120" height="60" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
