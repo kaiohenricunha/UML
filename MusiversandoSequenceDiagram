@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2021-04-06T14:47:03.289Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/89.0.4389.114 Safari/537.36" etag="fWHCm-GQT0ma14yleILt" version="14.5.7" type="github">
+<mxfile host="app.diagrams.net" modified="2021-04-06T14:47:27.525Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/89.0.4389.114 Safari/537.36" etag="ZKxaRuPMXt8sw56OKuc1" version="14.5.7" type="github">
   <diagram id="JZOuH_yRhHNg3JBBt14S" name="Page-1">
     <mxGraphModel dx="655" dy="428" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
       <root>
@@ -29,7 +29,7 @@
         <mxCell id="D6yoV7OybMeUxjnF4ixi-23" value="" style="html=1;points=[];perimeter=orthogonalPerimeter;" vertex="1" parent="D6yoV7OybMeUxjnF4ixi-6">
           <mxGeometry x="45" y="370" width="10" height="40" as="geometry" />
         </mxCell>
-        <mxCell id="D6yoV7OybMeUxjnF4ixi-24" value="sistema valida a inscrição" style="edgeStyle=orthogonalEdgeStyle;html=1;align=left;spacingLeft=2;endArrow=block;rounded=0;entryX=1;entryY=0;" edge="1" target="D6yoV7OybMeUxjnF4ixi-23" parent="D6yoV7OybMeUxjnF4ixi-6">
+        <mxCell id="D6yoV7OybMeUxjnF4ixi-24" value="sistema valida a inscrição" style="edgeStyle=orthogonalEdgeStyle;html=1;align=left;spacingLeft=2;endArrow=block;rounded=0;" edge="1" parent="D6yoV7OybMeUxjnF4ixi-6">
           <mxGeometry relative="1" as="geometry">
             <mxPoint x="50" y="350" as="sourcePoint" />
             <Array as="points">
@@ -38,6 +38,7 @@
               <mxPoint x="80" y="400" />
               <mxPoint x="55" y="400" />
             </Array>
+            <mxPoint x="55" y="400" as="targetPoint" />
           </mxGeometry>
         </mxCell>
         <mxCell id="D6yoV7OybMeUxjnF4ixi-8" value="se inscever" style="html=1;verticalAlign=bottom;endArrow=block;" edge="1" parent="1" target="D6yoV7OybMeUxjnF4ixi-6">
