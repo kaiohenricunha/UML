@@ -1,6 +1,6 @@
-<mxfile host="app.diagrams.net" modified="2021-04-06T13:58:12.595Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/89.0.4389.114 Safari/537.36" etag="mKSUzHbVDA-ZHL6AAhB5" version="14.5.7" type="github">
+<mxfile host="app.diagrams.net" modified="2021-04-06T14:35:17.568Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/89.0.4389.114 Safari/537.36" etag="6NhPpKluWgVEz1VcI_An" version="14.5.7" type="github">
   <diagram id="JZOuH_yRhHNg3JBBt14S" name="Page-1">
-    <mxGraphModel dx="1572" dy="882" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
+    <mxGraphModel dx="1123" dy="630" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
@@ -9,6 +9,28 @@
         </mxCell>
         <mxCell id="D6yoV7OybMeUxjnF4ixi-6" value=":Concurso" style="shape=umlLifeline;perimeter=lifelinePerimeter;whiteSpace=wrap;html=1;container=1;collapsible=0;recursiveResize=0;outlineConnect=0;" vertex="1" parent="1">
           <mxGeometry x="310" y="40" width="100" height="300" as="geometry" />
+        </mxCell>
+        <mxCell id="D6yoV7OybMeUxjnF4ixi-9" value="" style="html=1;points=[];perimeter=orthogonalPerimeter;" vertex="1" parent="D6yoV7OybMeUxjnF4ixi-6">
+          <mxGeometry x="45" y="80" width="10" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="D6yoV7OybMeUxjnF4ixi-12" value="" style="endArrow=open;endFill=1;endSize=12;html=1;exitX=0.914;exitY=0.036;exitDx=0;exitDy=0;exitPerimeter=0;" edge="1" parent="D6yoV7OybMeUxjnF4ixi-6" source="D6yoV7OybMeUxjnF4ixi-9" target="D6yoV7OybMeUxjnF4ixi-6">
+          <mxGeometry width="160" relative="1" as="geometry">
+            <mxPoint x="-10" y="200" as="sourcePoint" />
+            <mxPoint x="110" y="170" as="targetPoint" />
+            <Array as="points">
+              <mxPoint x="110" y="80" />
+              <mxPoint x="110" y="120" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="D6yoV7OybMeUxjnF4ixi-8" value="se inscever" style="html=1;verticalAlign=bottom;endArrow=block;" edge="1" parent="1" target="D6yoV7OybMeUxjnF4ixi-6">
+          <mxGeometry width="80" relative="1" as="geometry">
+            <mxPoint x="90" y="120" as="sourcePoint" />
+            <mxPoint x="170" y="120" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="D6yoV7OybMeUxjnF4ixi-13" value="confere se o usuário já está cadastrado" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;" vertex="1" parent="1">
+          <mxGeometry x="370" y="130" width="240" height="26" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
