@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2021-04-08T14:20:20.702Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/89.0.4389.114 Safari/537.36" etag="ZtueC6LAOmqaX05ZzW3v" version="14.5.8" type="github">
+<mxfile host="app.diagrams.net" modified="2021-04-08T14:21:00.410Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/89.0.4389.114 Safari/537.36" etag="xCveahpNw0HThAh2pNVe" version="14.5.8" type="github">
   <diagram id="OcMcAnHfvS0mTPytnUyD" name="Page-1">
     <mxGraphModel dx="786" dy="441" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
       <root>
@@ -62,13 +62,13 @@
           <mxGeometry y="26" width="80" height="8" as="geometry" />
         </mxCell>
         <mxCell id="UQars94LuhA1Bg69ks58-28" value="Composicao" style="swimlane;fontStyle=1;align=center;verticalAlign=top;childLayout=stackLayout;horizontal=1;startSize=26;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;" vertex="1" parent="1">
-          <mxGeometry x="560" y="46" width="80" height="34" as="geometry" />
+          <mxGeometry x="440" y="160" width="80" height="34" as="geometry" />
         </mxCell>
         <mxCell id="UQars94LuhA1Bg69ks58-29" value="" style="line;strokeWidth=1;fillColor=none;align=left;verticalAlign=middle;spacingTop=-1;spacingLeft=3;spacingRight=3;rotatable=0;labelPosition=right;points=[];portConstraint=eastwest;" vertex="1" parent="UQars94LuhA1Bg69ks58-28">
           <mxGeometry y="26" width="80" height="8" as="geometry" />
         </mxCell>
         <mxCell id="UQars94LuhA1Bg69ks58-30" value="Artigo" style="swimlane;fontStyle=1;align=center;verticalAlign=top;childLayout=stackLayout;horizontal=1;startSize=26;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;" vertex="1" parent="1">
-          <mxGeometry x="680" y="46" width="80" height="34" as="geometry" />
+          <mxGeometry x="660" y="160" width="80" height="34" as="geometry" />
         </mxCell>
         <mxCell id="UQars94LuhA1Bg69ks58-31" value="" style="line;strokeWidth=1;fillColor=none;align=left;verticalAlign=middle;spacingTop=-1;spacingLeft=3;spacingRight=3;rotatable=0;labelPosition=right;points=[];portConstraint=eastwest;" vertex="1" parent="UQars94LuhA1Bg69ks58-30">
           <mxGeometry y="26" width="80" height="8" as="geometry" />
@@ -77,6 +77,12 @@
           <mxGeometry relative="1" as="geometry">
             <mxPoint x="480" y="230" as="sourcePoint" />
             <mxPoint x="400" y="230" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="UQars94LuhA1Bg69ks58-36" value="" style="endArrow=none;html=1;edgeStyle=orthogonalEdgeStyle;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="UQars94LuhA1Bg69ks58-26" target="UQars94LuhA1Bg69ks58-28">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="360" y="230" as="sourcePoint" />
+            <mxPoint x="520" y="230" as="targetPoint" />
           </mxGeometry>
         </mxCell>
       </root>
