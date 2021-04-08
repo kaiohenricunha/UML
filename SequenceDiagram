@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2021-04-08T14:59:48.183Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/89.0.4389.114 Safari/537.36" etag="_qSOwIzLSONJi3IzI6gY" version="14.5.8" type="github">
+<mxfile host="app.diagrams.net" modified="2021-04-08T15:01:07.655Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/89.0.4389.114 Safari/537.36" etag="vilOK0WiIp5o3INDsZ4l" version="14.5.8" type="github">
   <diagram id="6i7D9MaMGUmxSyK4OSB7" name="Page-1">
     <mxGraphModel dx="786" dy="441" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
       <root>
@@ -19,7 +19,7 @@
             <mxPoint x="-200" y="130" as="targetPoint" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="GazQQ2k3xRQbVVakSlhf-11" value="iinforma a senha" style="html=1;verticalAlign=bottom;endArrow=open;dashed=1;endSize=8;" edge="1" parent="GazQQ2k3xRQbVVakSlhf-4">
+        <mxCell id="GazQQ2k3xRQbVVakSlhf-11" value="informa a senha" style="html=1;verticalAlign=bottom;endArrow=open;dashed=1;endSize=8;" edge="1" parent="GazQQ2k3xRQbVVakSlhf-4">
           <mxGeometry relative="1" as="geometry">
             <mxPoint x="40" y="187" as="targetPoint" />
             <mxPoint x="-200" y="187" as="sourcePoint" />
@@ -35,6 +35,9 @@
               <mxPoint x="75" y="190" />
             </Array>
           </mxGeometry>
+        </mxCell>
+        <mxCell id="GazQQ2k3xRQbVVakSlhf-23" value="" style="html=1;points=[];perimeter=orthogonalPerimeter;" vertex="1" parent="GazQQ2k3xRQbVVakSlhf-4">
+          <mxGeometry x="45" y="420" width="10" height="40" as="geometry" />
         </mxCell>
         <mxCell id="GazQQ2k3xRQbVVakSlhf-5" value="" style="endArrow=none;dashed=1;html=1;entryX=0;entryY=1;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="1" target="GazQQ2k3xRQbVVakSlhf-1">
           <mxGeometry width="50" height="50" relative="1" as="geometry">
@@ -80,6 +83,18 @@
             <mxPoint x="80" y="420" as="sourcePoint" />
             <mxPoint x="329.5" y="420" as="targetPoint" />
             <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="GazQQ2k3xRQbVVakSlhf-24" value="solicita a chave pix do recebedor" style="html=1;verticalAlign=bottom;endArrow=block;exitX=0.8;exitY=-0.017;exitDx=0;exitDy=0;exitPerimeter=0;" edge="1" parent="1">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="328" y="450" as="sourcePoint" />
+            <mxPoint x="80" y="451.02" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="GazQQ2k3xRQbVVakSlhf-25" value="informa a chave PIX do recebedor" style="html=1;verticalAlign=bottom;endArrow=open;dashed=1;endSize=8;" edge="1" parent="1">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="320" y="490" as="targetPoint" />
+            <mxPoint x="80" y="490" as="sourcePoint" />
           </mxGeometry>
         </mxCell>
       </root>
