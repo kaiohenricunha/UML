@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2021-04-11T20:55:30.360Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/89.0.4389.114 Safari/537.36" etag="J1NpZDeTCvXwxCYcvJSt" version="14.5.8" type="github">
+<mxfile host="app.diagrams.net" modified="2021-04-11T20:55:55.330Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/89.0.4389.114 Safari/537.36" etag="T0m-OmG4vm1eX2MMXdLo" version="14.5.8" type="github">
   <diagram id="n7GigyZL3QreqRXjLkzi" name="Page-1">
     <mxGraphModel dx="786" dy="441" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
       <root>
@@ -12,6 +12,12 @@
         </mxCell>
         <mxCell id="ULC9AAw3ipfpad_t5TwG-3" value="Exibir funcionário" style="ellipse;whiteSpace=wrap;html=1;" vertex="1" parent="1">
           <mxGeometry x="335" y="40" width="120" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="ULC9AAw3ipfpad_t5TwG-4" value="Editar funcionário" style="ellipse;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="570" y="60" width="120" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="ULC9AAw3ipfpad_t5TwG-5" value="Remover funcionáro" style="ellipse;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="335" y="370" width="120" height="80" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
