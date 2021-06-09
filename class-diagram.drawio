@@ -1,10 +1,10 @@
-<mxfile host="app.diagrams.net" modified="2021-06-09T12:50:45.852Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/90.0.4430.212 Safari/537.36" etag="djnNkb2ASJVJp2T7rrbF" version="14.7.6" type="github">
+<mxfile host="app.diagrams.net" modified="2021-06-09T23:24:27.100Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/90.0.4430.212 Safari/537.36" etag="A-Pk7pTsLb39pcgDfoyB" version="14.7.6" type="github">
   <diagram id="JYylptXItskjPRS8s5tQ" name="Page-1">
     <mxGraphModel dx="786" dy="445" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
-        <mxCell id="DAYWACB98tQwwMl1dbcq-2" value="Usuario" style="swimlane;fontStyle=1;align=center;verticalAlign=top;childLayout=stackLayout;horizontal=1;startSize=26;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;" parent="1" vertex="1">
+        <mxCell id="DAYWACB98tQwwMl1dbcq-2" value="User" style="swimlane;fontStyle=1;align=center;verticalAlign=top;childLayout=stackLayout;horizontal=1;startSize=26;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;" parent="1" vertex="1">
           <mxGeometry x="40" y="40" width="320" height="350" as="geometry" />
         </mxCell>
         <mxCell id="DAYWACB98tQwwMl1dbcq-3" value="- id: Long&#xa;- nome: String&#xa;- email: String&#xa;- username: String&#xa;- senha: String&#xa;- composicao: Composicao" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;" parent="DAYWACB98tQwwMl1dbcq-2" vertex="1">
@@ -16,7 +16,7 @@
         <mxCell id="DAYWACB98tQwwMl1dbcq-5" value="+ Usuario(): Usuario&#xa;+ Usuario(String nome, String email, String username,&#xa;String senha): Usuario&#xa;+ getNome(): void&#xa;+ setNome(String nome): String&#xa;+ getEmail(): void&#xa;+ setEmail(String email): String&#xa;+ getUsername(): void&#xa;+ setUsername(String username): String&#xa;+ getSenha(): void&#xa;+ setSenha(String senha): String&#xa;+ getComposicao(): void&#xa;+ setComposicao(): Composicao&#xa;+ getId(): void&#xa;+ setId(): Long" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;" parent="DAYWACB98tQwwMl1dbcq-2" vertex="1">
           <mxGeometry y="128" width="320" height="222" as="geometry" />
         </mxCell>
-        <mxCell id="DAYWACB98tQwwMl1dbcq-10" value="Composicao" style="swimlane;fontStyle=1;align=center;verticalAlign=top;childLayout=stackLayout;horizontal=1;startSize=26;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;" parent="1" vertex="1">
+        <mxCell id="DAYWACB98tQwwMl1dbcq-10" value="Song" style="swimlane;fontStyle=1;align=center;verticalAlign=top;childLayout=stackLayout;horizontal=1;startSize=26;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;" parent="1" vertex="1">
           <mxGeometry x="470" y="40" width="320" height="280" as="geometry" />
         </mxCell>
         <mxCell id="DAYWACB98tQwwMl1dbcq-11" value="- id: Long&#xa;- nome: String&#xa;- linkComposicao: String&#xa;- compositor: Compositor" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;" parent="DAYWACB98tQwwMl1dbcq-10" vertex="1">
@@ -41,13 +41,13 @@
           <mxGeometry x="420" y="70" width="80" height="26" as="geometry" />
         </mxCell>
         <mxCell id="DAYWACB98tQwwMl1dbcq-18" value="UsuarioRepository" style="swimlane;fontStyle=1;align=center;verticalAlign=top;childLayout=stackLayout;horizontal=1;startSize=26;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;" parent="1" vertex="1">
-          <mxGeometry x="40" y="400" width="320" height="156" as="geometry" />
+          <mxGeometry x="40" y="400" width="320" height="192" as="geometry" />
         </mxCell>
         <mxCell id="DAYWACB98tQwwMl1dbcq-20" value="" style="line;strokeWidth=1;fillColor=none;align=left;verticalAlign=middle;spacingTop=-1;spacingLeft=3;spacingRight=3;rotatable=0;labelPosition=right;points=[];portConstraint=eastwest;" parent="DAYWACB98tQwwMl1dbcq-18" vertex="1">
-          <mxGeometry y="26" width="320" height="8" as="geometry" />
+          <mxGeometry y="26" width="320" height="44" as="geometry" />
         </mxCell>
-        <mxCell id="DAYWACB98tQwwMl1dbcq-21" value="+ findByUsername(String username): Usuario&#xa;+ findByNome(String nome): List&lt;Usuario&gt;" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;" parent="DAYWACB98tQwwMl1dbcq-18" vertex="1">
-          <mxGeometry y="34" width="320" height="122" as="geometry" />
+        <mxCell id="DAYWACB98tQwwMl1dbcq-21" value="+ findByUsername(String username): Usuario&#xa;+ findByNome(String nome): List&lt;Usuario&gt;&#xa;+ save, etc" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;" parent="DAYWACB98tQwwMl1dbcq-18" vertex="1">
+          <mxGeometry y="70" width="320" height="122" as="geometry" />
         </mxCell>
         <mxCell id="DAYWACB98tQwwMl1dbcq-22" value="ComposicaoRepository" style="swimlane;fontStyle=1;align=center;verticalAlign=top;childLayout=stackLayout;horizontal=1;startSize=26;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;" parent="1" vertex="1">
           <mxGeometry x="470" y="400" width="320" height="156" as="geometry" />
@@ -57,6 +57,15 @@
         </mxCell>
         <mxCell id="DAYWACB98tQwwMl1dbcq-25" value="+ findById(Long id): Long&#xa;+ findByNome(String nome): List&lt;Composicao&gt;" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;" parent="DAYWACB98tQwwMl1dbcq-22" vertex="1">
           <mxGeometry y="34" width="320" height="122" as="geometry" />
+        </mxCell>
+        <mxCell id="C93LtU7R9s-vd266RMyt-1" value="UserController" style="swimlane;fontStyle=1;align=center;verticalAlign=top;childLayout=stackLayout;horizontal=1;startSize=26;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;" vertex="1" parent="1">
+          <mxGeometry x="40" y="630" width="320" height="192" as="geometry" />
+        </mxCell>
+        <mxCell id="C93LtU7R9s-vd266RMyt-2" value="" style="line;strokeWidth=1;fillColor=none;align=left;verticalAlign=middle;spacingTop=-1;spacingLeft=3;spacingRight=3;rotatable=0;labelPosition=right;points=[];portConstraint=eastwest;" vertex="1" parent="C93LtU7R9s-vd266RMyt-1">
+          <mxGeometry y="26" width="320" height="44" as="geometry" />
+        </mxCell>
+        <mxCell id="C93LtU7R9s-vd266RMyt-3" value="+ findByUsername(String username): Usuario&#xa;+ findByNome(String nome): List&lt;Usuario&gt;&#xa;+ save, etc" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;" vertex="1" parent="C93LtU7R9s-vd266RMyt-1">
+          <mxGeometry y="70" width="320" height="122" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
