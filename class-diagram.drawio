@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2021-06-10T14:34:34.643Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/90.0.4430.212 Safari/537.36" etag="EzbLGeJM2dXhhvDRW3z8" version="14.7.6" type="github">
+<mxfile host="app.diagrams.net" modified="2021-06-10T14:40:17.563Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/90.0.4430.212 Safari/537.36" etag="t7obvVKPC5vduiYOiq8M" version="14.7.6" type="github">
   <diagram id="JYylptXItskjPRS8s5tQ" name="Page-1">
     <mxGraphModel dx="786" dy="445" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
       <root>
@@ -49,14 +49,14 @@
         <mxCell id="DAYWACB98tQwwMl1dbcq-21" value="+ findByUsername(String username): String&#xa;+ findByName(String name): List&lt;User&gt;&#xa;+ findById(Long id): Long&#xa;+ save(User): User&#xa;+ delete(User): User" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;" parent="DAYWACB98tQwwMl1dbcq-18" vertex="1">
           <mxGeometry y="70" width="320" height="100" as="geometry" />
         </mxCell>
-        <mxCell id="DAYWACB98tQwwMl1dbcq-22" value="ComposicaoRepository" style="swimlane;fontStyle=1;align=center;verticalAlign=top;childLayout=stackLayout;horizontal=1;startSize=26;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;" parent="1" vertex="1">
-          <mxGeometry x="470" y="400" width="320" height="156" as="geometry" />
+        <mxCell id="DAYWACB98tQwwMl1dbcq-22" value="SongRepository" style="swimlane;fontStyle=1;align=center;verticalAlign=top;childLayout=stackLayout;horizontal=1;startSize=26;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;" parent="1" vertex="1">
+          <mxGeometry x="470" y="400" width="320" height="182" as="geometry" />
         </mxCell>
         <mxCell id="DAYWACB98tQwwMl1dbcq-24" value="" style="line;strokeWidth=1;fillColor=none;align=left;verticalAlign=middle;spacingTop=-1;spacingLeft=3;spacingRight=3;rotatable=0;labelPosition=right;points=[];portConstraint=eastwest;" parent="DAYWACB98tQwwMl1dbcq-22" vertex="1">
-          <mxGeometry y="26" width="320" height="8" as="geometry" />
+          <mxGeometry y="26" width="320" height="34" as="geometry" />
         </mxCell>
-        <mxCell id="DAYWACB98tQwwMl1dbcq-25" value="+ findById(Long id): Long&#xa;+ findByNome(String nome): List&lt;Composicao&gt;" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;" parent="DAYWACB98tQwwMl1dbcq-22" vertex="1">
-          <mxGeometry y="34" width="320" height="122" as="geometry" />
+        <mxCell id="DAYWACB98tQwwMl1dbcq-25" value="+ findById(Long id): Long&#xa;+ findBySongName(String name): List&lt;Song&gt;&#xa;+ save(Song): Song&#xa;+ delete(Song): Song" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;" parent="DAYWACB98tQwwMl1dbcq-22" vertex="1">
+          <mxGeometry y="60" width="320" height="122" as="geometry" />
         </mxCell>
         <mxCell id="C93LtU7R9s-vd266RMyt-1" value="UserController" style="swimlane;fontStyle=1;align=center;verticalAlign=top;childLayout=stackLayout;horizontal=1;startSize=26;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;" parent="1" vertex="1">
           <mxGeometry x="40" y="680" width="320" height="192" as="geometry" />
