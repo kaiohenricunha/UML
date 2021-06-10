@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2021-06-10T14:23:12.676Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/90.0.4430.212 Safari/537.36" etag="VmBrxfsu13n0vj8tbjHN" version="14.7.6" type="github">
+<mxfile host="app.diagrams.net" modified="2021-06-10T14:28:25.284Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/90.0.4430.212 Safari/537.36" etag="WTz7KVFXX9Qdfx6LwNnK" version="14.7.6" type="github">
   <diagram id="JYylptXItskjPRS8s5tQ" name="Page-1">
     <mxGraphModel dx="786" dy="445" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
       <root>
@@ -17,16 +17,16 @@
           <mxGeometry y="128" width="320" height="222" as="geometry" />
         </mxCell>
         <mxCell id="DAYWACB98tQwwMl1dbcq-10" value="Song" style="swimlane;fontStyle=1;align=center;verticalAlign=top;childLayout=stackLayout;horizontal=1;startSize=26;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;" parent="1" vertex="1">
-          <mxGeometry x="470" y="40" width="320" height="280" as="geometry" />
+          <mxGeometry x="470" y="40" width="320" height="240" as="geometry" />
         </mxCell>
-        <mxCell id="DAYWACB98tQwwMl1dbcq-11" value="- id: Long&#xa;- nome: String&#xa;- linkComposicao: String&#xa;- compositor: Compositor" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;" parent="DAYWACB98tQwwMl1dbcq-10" vertex="1">
-          <mxGeometry y="26" width="320" height="74" as="geometry" />
+        <mxCell id="DAYWACB98tQwwMl1dbcq-11" value="- id: Long&#xa;- songName: String&#xa;- songLink: String" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;" parent="DAYWACB98tQwwMl1dbcq-10" vertex="1">
+          <mxGeometry y="26" width="320" height="64" as="geometry" />
         </mxCell>
         <mxCell id="DAYWACB98tQwwMl1dbcq-12" value="" style="line;strokeWidth=1;fillColor=none;align=left;verticalAlign=middle;spacingTop=-1;spacingLeft=3;spacingRight=3;rotatable=0;labelPosition=right;points=[];portConstraint=eastwest;" parent="DAYWACB98tQwwMl1dbcq-10" vertex="1">
-          <mxGeometry y="100" width="320" height="8" as="geometry" />
+          <mxGeometry y="90" width="320" height="8" as="geometry" />
         </mxCell>
-        <mxCell id="DAYWACB98tQwwMl1dbcq-13" value="+ Composicao(): Composicao&#xa;+ Composicao(String nome, String linkComposicao,&#xa;Compositor compositor): Composicao&#xa;+ getNome(): void&#xa;+ setNome(): String&#xa;+ getLinkComposicao(): void&#xa;+ setLinkComposicao(): String&#xa;+ getCompositor(): void&#xa;+ setCompositor(): Compositor&#xa;+ getId(): void&#xa;+ setId(): Long" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;" parent="DAYWACB98tQwwMl1dbcq-10" vertex="1">
-          <mxGeometry y="108" width="320" height="172" as="geometry" />
+        <mxCell id="DAYWACB98tQwwMl1dbcq-13" value="+ Song(): Song&#xa;+ Song(String songName, String songLink): Song&#xa;+ getSongName(): void&#xa;+ setSongName(): String&#xa;+ getSongLink(): void&#xa;+ setSongLink(): String&#xa;+ getId(): void&#xa;+ setId(): Long" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;" parent="DAYWACB98tQwwMl1dbcq-10" vertex="1">
+          <mxGeometry y="98" width="320" height="142" as="geometry" />
         </mxCell>
         <mxCell id="DAYWACB98tQwwMl1dbcq-14" value="" style="endArrow=diamondThin;endFill=0;endSize=24;html=1;exitX=0;exitY=0.5;exitDx=0;exitDy=0;" parent="1" source="DAYWACB98tQwwMl1dbcq-11" edge="1">
           <mxGeometry width="160" relative="1" as="geometry">
@@ -38,7 +38,7 @@
           <mxGeometry x="330" y="80" width="80" height="26" as="geometry" />
         </mxCell>
         <mxCell id="DAYWACB98tQwwMl1dbcq-17" value="1" style="text;align=center;fontStyle=1;verticalAlign=middle;spacingLeft=3;spacingRight=3;strokeColor=none;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;" parent="1" vertex="1">
-          <mxGeometry x="420" y="70" width="80" height="26" as="geometry" />
+          <mxGeometry x="420" y="80" width="80" height="26" as="geometry" />
         </mxCell>
         <mxCell id="DAYWACB98tQwwMl1dbcq-18" value="UsuarioRepository" style="swimlane;fontStyle=1;align=center;verticalAlign=top;childLayout=stackLayout;horizontal=1;startSize=26;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;" parent="1" vertex="1">
           <mxGeometry x="40" y="400" width="320" height="192" as="geometry" />
