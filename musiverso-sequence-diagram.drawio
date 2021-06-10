@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2021-06-10T17:39:57.740Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/90.0.4430.212 Safari/537.36" etag="oMwJmwK1DJyNA_py-Q-_" version="14.7.6" type="github">
+<mxfile host="app.diagrams.net" modified="2021-06-10T17:43:07.765Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/90.0.4430.212 Safari/537.36" etag="YC8HG7NuyxUj4pGciQrm" version="14.7.6" type="github">
   <diagram id="sCx9bIU0miHuaN0mBLc-" name="Page-1">
     <mxGraphModel dx="786" dy="445" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
       <root>
@@ -9,6 +9,21 @@
         </mxCell>
         <mxCell id="IJUFwDiYUX83JYYmAMZr-3" value="" style="shape=umlLifeline;participant=umlActor;perimeter=lifelinePerimeter;whiteSpace=wrap;html=1;container=1;collapsible=0;recursiveResize=0;verticalAlign=top;spacingTop=36;outlineConnect=0;" vertex="1" parent="1">
           <mxGeometry x="40" y="40" width="20" height="300" as="geometry" />
+        </mxCell>
+        <mxCell id="IJUFwDiYUX83JYYmAMZr-4" value="acessa a página de cadastro" style="html=1;verticalAlign=bottom;endArrow=block;" edge="1" parent="1" target="IJUFwDiYUX83JYYmAMZr-2">
+          <mxGeometry width="80" relative="1" as="geometry">
+            <mxPoint x="50" y="120" as="sourcePoint" />
+            <mxPoint x="320" y="130" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="IJUFwDiYUX83JYYmAMZr-6" value="exibe formulário de inscrição" style="html=1;verticalAlign=bottom;endArrow=block;" edge="1" parent="1" source="IJUFwDiYUX83JYYmAMZr-2" target="IJUFwDiYUX83JYYmAMZr-3">
+          <mxGeometry width="80" relative="1" as="geometry">
+            <mxPoint x="360" y="230" as="sourcePoint" />
+            <mxPoint x="130" y="160" as="targetPoint" />
+            <Array as="points">
+              <mxPoint x="240" y="160" />
+            </Array>
+          </mxGeometry>
         </mxCell>
       </root>
     </mxGraphModel>
