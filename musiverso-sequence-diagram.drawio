@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2021-06-10T17:53:14.229Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/90.0.4430.212 Safari/537.36" etag="-xEFGlSZmdJZAGyCSmjw" version="14.7.6" type="github">
+<mxfile host="app.diagrams.net" modified="2021-06-10T17:54:33.004Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/90.0.4430.212 Safari/537.36" etag="ElsMP9y1mRLFgSJW_wSi" version="14.7.6" type="github">
   <diagram id="sCx9bIU0miHuaN0mBLc-" name="Page-1">
     <mxGraphModel dx="786" dy="445" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
       <root>
@@ -65,17 +65,14 @@
         <mxCell id="IJUFwDiYUX83JYYmAMZr-22" value="" style="html=1;points=[];perimeter=orthogonalPerimeter;" vertex="1" parent="1">
           <mxGeometry x="325" y="220" width="15" height="30" as="geometry" />
         </mxCell>
-        <mxCell id="IJUFwDiYUX83JYYmAMZr-23" value="" style="html=1;points=[];perimeter=orthogonalPerimeter;" vertex="1" parent="1">
-          <mxGeometry x="325" y="280" width="15" height="20" as="geometry" />
-        </mxCell>
-        <mxCell id="IJUFwDiYUX83JYYmAMZr-25" value="dispatch" style="html=1;verticalAlign=bottom;endArrow=block;" edge="1" parent="1" target="IJUFwDiYUX83JYYmAMZr-26">
+        <mxCell id="IJUFwDiYUX83JYYmAMZr-25" value="salva&amp;nbsp; o objeto User no repositório/banco de dados" style="html=1;verticalAlign=bottom;endArrow=block;" edge="1" parent="1" source="IJUFwDiYUX83JYYmAMZr-10" target="IJUFwDiYUX83JYYmAMZr-26">
           <mxGeometry width="80" relative="1" as="geometry">
             <mxPoint x="345" y="280" as="sourcePoint" />
             <mxPoint x="670" y="280" as="targetPoint" />
           </mxGeometry>
         </mxCell>
         <mxCell id="IJUFwDiYUX83JYYmAMZr-26" value=":Repository" style="shape=umlLifeline;perimeter=lifelinePerimeter;whiteSpace=wrap;html=1;container=1;collapsible=0;recursiveResize=0;outlineConnect=0;" vertex="1" parent="1">
-          <mxGeometry x="670" y="40" width="100" height="300" as="geometry" />
+          <mxGeometry x="670" y="40" width="100" height="400" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
